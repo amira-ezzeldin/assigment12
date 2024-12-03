@@ -1,0 +1,74 @@
+.basic{
+    background-color: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.back-form{
+   width: 900px !important;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    padding: 50PX;
+    transform: translateY(70px);
+}
+.inputs{
+    transform: translateX(100px);
+}
+h1{
+    color: #17a2b8;
+}
+
+input, textarea {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+.l-btn{
+    background-color: transparent !important;
+    color: #17a2b8;
+    background-image: none;
+    border-color: #17a2b8;
+}
+button, select {
+    text-transform: none;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.form-control::placeholder {
+    color: #fff !important;
+}
+.l-btn:hover {
+    background-color: #138496 !important; 
+    color: #fff !important;
+}
+a:hover{
+    text-decoration: underline !important;
+}
+#incorrect {
+    color: red;  
+    font-size: 16px;  
+    font-weight: bold; 
+    margin-left: 200px; 
+}
+.nav{
+    height: 60px;
+    width: 100%;
+    background-color: #24353f;
+    position: relative;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.log-out{
+position: absolute;
+right: 200px;
+border: solid #ffc107 1px !important;
+color: #ffffff80 !important;
+top: 10px;
+}
+.log-out:hover{
+    background-color: #ffc107 !important;
+    color: aliceblue !important;
+}
+.b-content{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    height:200px;
+    width: 800px !important;
+    margin-top: 200px;
+}
